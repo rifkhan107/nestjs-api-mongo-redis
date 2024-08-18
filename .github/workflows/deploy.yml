@@ -10,7 +10,7 @@ env:
   ECR_REPOSITORY: nestify-ecr
   ECS_SERVICE: tps-microservice-svc
   ECS_CLUSTER: nestify-ecs-cluster
-  ECS_TASK_DEFINITION: .aws/tps-microservice-td.json
+  ECS_TASK_DEFINITION: .aws/microservice-td.json
   CONTAINER_NAME: tps-container
 
 jobs:
